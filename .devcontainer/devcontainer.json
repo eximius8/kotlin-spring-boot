@@ -1,0 +1,9 @@
+{
+  "image": "ghcr.io/devcontainers/templates/java:4.0.2",  
+  "customizations": {
+    "installGradle": true,
+    "vscode": {
+        "extensions": ["streetsidesoftware.code-spell-checker"]
+    }
+  }
+}
