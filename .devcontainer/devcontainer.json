@@ -1,9 +1,11 @@
 {
-  "image": "ghcr.io/devcontainers/templates/java:4.0.2",  
+  "image": "mcr.microsoft.com/devcontainers/java:21",  
   "customizations": {
     "installGradle": true,
     "vscode": {
-        "extensions": ["streetsidesoftware.code-spell-checker"]
+        "extensions": [
+          "vscjava.vscode-java-pack"
+        ]
     }
   }
 }
